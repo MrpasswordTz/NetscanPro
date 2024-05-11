@@ -44,4 +44,4 @@ python3 NetscanPro
 <p><strong>warning ⚠️:</strong> This script is only for Educational purposes MrpasswordTz will not be responsible for any damage.!</p>
 
 ### Tags
-<a href= " https://github.com/iamunixtz"> iamunixtz</a>
+<a href="https://github.com/iamunixtz">iamunixtz</a>
