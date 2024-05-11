@@ -200,6 +200,19 @@ def troubleshooting_and_debugging():
         target = input("Enter a target for open ports: ")
         subprocess.run(["nmap", "--open", target])
 
+ #update checking program management
+def check_for_update():
+    print("Checking for Update\n")
+    print("Y / N")
+    choice = input("Enter your choice (Y/N): ").upper()
+
+    if choice == "Y":
+        subprocess.run(["git", "clone", "https://github.com/MrpasswordTz/NetscanPro/blob/main/NetscanPro.py"])
+    elif choice == "N":  # Correct indentation for the elif block
+        print("Update cancelled.")
+    else:
+        print("Invalid option. Please enter Y or N.\n")
+        
 def main():
     while True:
         owner = "GitHub By: MrpasswordTz\n"
@@ -213,6 +226,7 @@ def main():
         print("5. Version Detection")
         print("6. Firewall Evasion Techniques")
         print("7. Troubleshooting and Debugging")
+        print("99. Update Script\n")
         print("0. Exit")
         choice = input("Enter your choice: ")
         if choice == "1":
@@ -229,6 +243,8 @@ def main():
             firewall_evasion_techniques()
         elif choice == "7":
             troubleshooting_and_debugging()
+        elif choice == "99":
+            check_for_update()
         elif choice == "0":
             break
         else:
