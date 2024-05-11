@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="[https://github.com/MrpasswordTz/NetscanPro/blob/main/LICENSE"]><img src="https://img.shields.io/github/license/iamunixtz/Termux-Hydra.svg" alt="GitHub license"></a>
+  <a href="https://github.com/MrpasswordTz/NetscanPro/blob/main/LICENSE"><img src="https://img.shields.io/github/license/MrpasswordTz/NetscanPro.svg" alt="GitHub license"></a>
 </p>
 
 <img src="https://github.com/MrpasswordTz/NetscanPro/blob/main/netscan.png" alt="NetscanPro image">
