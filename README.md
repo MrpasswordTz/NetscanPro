@@ -9,9 +9,39 @@ NetScanPro is a powerful network scanning tool that enables users to identify ac
   <li>Easy to use no command line usage than in normal nmap.</li>
   <li>it supports both linux and Termux </li>
   <li>Fast scanning.</li>
-  <li>Open source </li>
-  <li>User friendly in alignment and language used (English)</li>
+  <li>Open source. </li>
+  <li>User friendly in alignment and language used (English).</li>
+  <li>High Accurate </li>
   
 </ul>
 
-# Installation TERMUX
+##### Installation On TERMUX
+```
+pkg update
+
+pkg install git
+
+git clone https://github.com/MrpasswordTz/NetscanPro.git
+
+cd NetscanPro
+
+chmod +x setup.sh
+
+./setup.sh
+
+python3 NetscanPro
+```
+
+##### Usages  in Linux
+```
+git clone https://github.com/MrpasswordTz/NetscanPro.git
+
+cd NetscanPro
+
+python3 NetscanPro
+```
+##### Disclaimer !
+<p><strong>warning ⚠️:</strong> This script is only for Educational purposes MrpasswordTz will not be responsible for any damage.!</p>
+
+### Tags
+<a href= " https://github.com/iamunixtz"> iamunixtz</a>
