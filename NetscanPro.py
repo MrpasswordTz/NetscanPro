@@ -183,6 +183,19 @@ def troubleshooting_and_debugging():
         target = input("Enter a target for open ports: ")
         subprocess.run(["nmap", "--open", target])
 
+#...nslookup and whois lib
+def fast_scan():
+    print("Fast Scan Options:\n")
+    print("1. nslookup")
+    print("2. whois")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        target = input("Enter nslookup Target:\n")
+        subprocess.run(["nslookup" , target])
+    elif choice == "2":
+        target= input("Enter whois target:\n")
+        subprocess.run(["whois" , target])
+
  #update checking program management
 def check_for_update():
     print("Checking for Update\n")
@@ -209,9 +222,10 @@ def main():
         print("5. Version Detection")
         print("6. Firewall Evasion Techniques")
         print("7. Troubleshooting and Debugging")
+        print("8. Fast Scan")
         print("99. Update Script\n")
         print("0. Exit")
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice: \n")
         if choice == "1":
             basic_scanning()
         elif choice == "2":
@@ -226,6 +240,8 @@ def main():
             firewall_evasion_techniques()
         elif choice == "7":
             troubleshooting_and_debugging()
+        elif choice == "8":
+            fast_scan()
         elif choice == "99":
             check_for_update()
         elif choice == "0":
