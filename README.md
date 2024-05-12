@@ -42,6 +42,10 @@ git clone https://github.com/MrpasswordTz/NetscanPro.git
 
 cd NetscanPro
 
+chmod +x setup.sh
+
+./setup.sh
+
 python3 NetscanPro
 ```
 ##### Disclaimer !
