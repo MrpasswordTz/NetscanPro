@@ -15,7 +15,7 @@ NetScanPro is a powerful network scanning tool that enables users to identify ac
   <li>Fast scanning.</li>
   <li>Open source. </li>
   <li>User friendly in alignment and language used (English).</li>
-  <li>High Accurate </li>
+  <li>High Accurate. </li>
   
 </ul>
 
