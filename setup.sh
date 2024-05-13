@@ -3,7 +3,8 @@
 echo "setup for NetScanPro"
 
 
-apt update && apt upgrade
+apt update 
+apt upgrade
 apt install git
 apt install wget 
 apt install python 
