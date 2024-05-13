@@ -14,5 +14,6 @@ apt install nslookup
 apt install whois
 apt install dnsutils
 pip install colorama
+pip install pyfiglet
 
 echo "Installation complete!"
