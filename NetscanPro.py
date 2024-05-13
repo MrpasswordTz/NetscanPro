@@ -304,19 +304,19 @@ def version_detection():
         subprocess.run(["nmap", "-O", "--osscan-guess", target])
         print(lines)
     elif choice == "3":
-        target = input("Enter  Your Target")
+        target = input("Enter  Your Target: ")
         print("\n")
         print(results)
         subprocess.run(["nmap", "-sV", target])
         print(lines)   
     elif choice == "4":
-        target = input("Enter Your Target")
+        target = input("Enter Your Target: ")
         print("\n")
         print(results)
         subprocess.run(["nmap" , "-sV -version-trace" , target])
         print(lines)
     elif choice =="5":
-        target = input("Enter Your Target")
+        target = input("Enter Your Target: ")
         print("\n")
         print(results)
         subprocess.run(["nmap", "-sR", target])
@@ -345,13 +345,13 @@ def firewall_evasion_techniques():
         subprocess.run(["nmap", "--mtu", target])
         print(lines)
     elif choice == "3":
-            target = input("Enter a Decoy")
+            target = input("Enter a Decoy: ")
             print("\n")
             print(results)
             subprocess.run(["nmap" , "-D RND:", target ])
             print(lines)
     elif choice ==  "4":
-              target = input("Enter a Mac Address")
+              target = input("Enter a Mac Address: ")
               print("\n")
               print(results)
               subprocess.run(["nmap", "-spoof-mac", target])
@@ -398,13 +398,13 @@ def fast_scan():
         print("2.whois")
         choice = input("Enter your choice:")
         if choice == "1":
-            target = input("Enter the Target:")
+            target = input("Enter the Target: ")
             print("\n")
             print(results)
             subprocess.run(["nslookup",  target])
             print(lines)
         elif choice == "2":
-             target = input("Enter the Target:")
+             target = input("Enter the Target: ")
              print("\n")
              print(results)
              subprocess.run(["whois" , target])
@@ -427,7 +427,7 @@ def trace_route():
                           print("11. The Full Packet Length")
                           choice = input("Enter your choice\n")
                           if choice == "1":
-                              target = input("Enter  packet Tracerouting")
+                              target = input("Enter  packet Tracerouting: ")
                               print("\n")
                               print(results)
                               subprocess.run(["traceroute" , target])
