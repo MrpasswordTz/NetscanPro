@@ -500,7 +500,7 @@ def trace_route():
                               print(lines)                                                                                                                                                                                                                                     
         #update checking program management
 def check_for_update():
-    print("Checking for Update\n")
+    print(Fore.PINK + "Checking for Update\n" + Fore.RESET)
     print("Y / N")
     choice = input("Enter your choice (Y/N): ").upper()
 
