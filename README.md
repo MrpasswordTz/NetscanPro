@@ -1,7 +1,7 @@
 # NetscanPro V2.0
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MrpasswordTz/NetscanPro/refs/heads/main/img/netscaN.png" alt="NetscanPro Logo" width="600">
+  <img src="https://raw.githubusercontent.com/MrpasswordTz/NetscanPro/refs/heads/main/img/netscaN.png" alt="NetscanPro Logo" width="800">
 </p>
 
 <p align="center">
