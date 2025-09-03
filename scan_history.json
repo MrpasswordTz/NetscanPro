@@ -1,0 +1,8 @@
+[
+    {
+        "name": "localhost",
+        "target": "localhost",
+        "timestamp": "2025-09-03T03:09:27.717855",
+        "results": "Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-03 03:09 EAT\nNmap scan report for localhost (127.0.0.1)\nHost is up (0.0000040s latency).\nOther addresses for localhost (not scanned): ::1\nNot shown: 997 closed tcp ports (reset)\nPORT     STATE SERVICE\n22/tcp   open  ssh\n7070/tcp open  realserver\n8000/tcp open  http-alt\n\nNmap done: 1 IP address (1 host up) scanned in 0.13 seconds\n"
+    }
+]

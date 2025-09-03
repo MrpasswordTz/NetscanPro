@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetscanPro V2 Report - localhost</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .header { background-color: #2c3e50; color: white; padding: 20px; border-radius: 5px; }
+        .section { background-color: white; margin: 20px 0; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .vulnerability { background-color: #ffeaa7; border-left: 5px solid #d63031; padding: 10px; margin: 10px 0; }
+        .safe { background-color: #55efc4; border-left: 5px solid #00b894; padding: 10px; margin: 10px 0; }
+        pre { background-color: #ecf0f1; padding: 10px; border-radius: 3px; overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>NetscanPro Security Scan Report</h1>
+        <p><strong>Scan Name:</strong> localhost</p>
+        <p><strong>Target:</strong> localhost</p>
+        <p><strong>Scan Date:</strong> 2025-09-03T03:09:27.717855</p>
+    </div>
+
+    <div class="section">
+        <h2>Scan Results</h2>
+        <pre>Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-03 03:09 EAT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0000040s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+22/tcp   open  ssh
+7070/tcp open  realserver
+8000/tcp open  http-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
+</pre>
+    </div>
+
+    <div class="section">
+        <h2>Vulnerability Analysis</h2>
+
+        <div class="vulnerability">
+            <h3>Port 22/tcp - SSH</h3>
+
+            <p><strong>CVE:</strong> CVE-2018-15473</p>
+            <p><strong>Description:</strong> OpenSSH user enumeration vulnerability</p>
+            <p><strong>Impact:</strong> Information disclosure</p>
+            <p><strong>Recommendation:</strong> Upgrade OpenSSH to version 7.7 or later</p>
+
+            <p><strong>CVE:</strong> CVE-2020-15778</p>
+            <p><strong>Description:</strong> OpenSSH command injection vulnerability</p>
+            <p><strong>Impact:</strong> Remote code execution</p>
+            <p><strong>Recommendation:</strong> Upgrade OpenSSH to version 8.3 or later</p>
+
+            <p><strong>CVE:</strong> CVE-2023-38408</p>
+            <p><strong>Description:</strong> OpenSSH privilege escalation vulnerability</p>
+            <p><strong>Impact:</strong> Privilege escalation</p>
+            <p><strong>Recommendation:</strong> Upgrade OpenSSH to version 9.3 or later</p>
+</div>
+    </div>
+
+    <div class="section">
+        <h2>Recommendations</h2>
+        <ul>
+            <li>Regularly update all services and operating systems</li>
+            <li>Use firewalls to restrict unnecessary port access</li>
+            <li>Implement intrusion detection systems</li>
+            <li>Conduct regular security audits</li>
+        </ul>
+    </div>
+</body>
+</html>
