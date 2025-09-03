@@ -119,13 +119,13 @@ pip3 install colorama
 ## Screenshots
 
 ### Main Menu
-![Main Menu](https://via.placeholder.com/600x400?text=NetscanPro+Main+Menu)
+![Main Menu](https://raw.githubusercontent.com/MrpasswordTz/NetscanPro/refs/heads/main/img/netscaN.png)
 
 ### Scan Results
 ![Scan Results](https://via.placeholder.com/600x400?text=Scan+Results+Example)
 
 ### Generated Report
-![Generated Report](https://via.placeholder.com/600x400?text=Professional+HTML+Report)
+![Generated Report](https://raw.githubusercontent.com/MrpasswordTz/NetscanPro/refs/heads/main/img/res.png)
 
 *Screenshots will be added soon. For now, the tool provides detailed terminal output.*
 
